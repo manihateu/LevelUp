@@ -1,0 +1,144 @@
+.compose-product, .reviews-roll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .compose-product .compose-product_col {
+    height: 550px;
+    margin: 20px;
+  }
+  
+  .compose-product .compose-product_col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .compose-product .compose-product_col .compose-product_col__row  {
+    height: 33%;
+  }
+  
+  .compose-product .compose-product_col .compose-product_col__row div {
+    background-color: #fff;
+    border-radius: 75px;
+    max-width: 150px;
+    max-height: 150px;
+    display: flex;
+  }
+  
+  .compose-product .compose-product_col .compose-product_col__row div img {
+    display: flex;
+    margin: auto;
+    height: 120px;
+  }
+  
+  .compose-product .compose-product_col-center div {
+    position: relative;
+    bottom: 80px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .compose-product .compose-product_col-center div button {
+    margin-top: 120px;
+    margin-bottom: 0;
+  }
+  
+  .compose-product .compose-product_col-center img {
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+  }
+
+  @media screen and (max-width: 992px){
+    .compose-product_col {
+        display: flex;
+        
+    }
+}
+
+@media screen and (max-width: 992px){
+    .levelup {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.loading-box {
+    position: relative;
+    border-radius: 5px;
+    background-color: #EEE;
+    animation: 1s shimmer infinite linear;
+  }
+  
+  
+   
+  .countdown {
+    font-family: sans-serif;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+  }
+   
+  .countdown-number {
+    padding: 10px;
+    
+    display: inline-block;
+  }
+   
+  .countdown-time {
+    padding: 15px;
+    display: inline-block;
+  }
+   
+  .countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  
+    #tekst_sverhu_kartinki {
+
+    position: relative;
+    
+    }
+    .tekst_sverhu_kartinki {
+    
+    position: absolute;
+    
+    top: 50%;
+    
+    left: 65px;
+    
+    text-transform: uppercase;
+    
+    color: white;
+    
+    width: 350px;
+    
+    background: #00000094;
+    
+    padding: 10px;
+    
+    text-align: center;
+    
+    font: bold 24px/34px Helvetica, Sans-Serif;
+    
+}
+
+.container{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,92,180,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,92,180,1) 35%, rgba(0,212,255,1) 100%);
+}
