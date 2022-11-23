@@ -150,6 +150,9 @@ body{
     .buy_form{
       margin-left: 130px;
     }
+    .buy_btn{
+      width: 100px;
+    }
     
 }
 
@@ -157,5 +160,13 @@ body{
   .buy_btn{
     width: 100%;
   }
+  .buy_form{
+    margin: 0;
+  }
+  #myElementToScroll{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
