@@ -162,6 +162,7 @@ body{
   }
   .buy_form{
     margin: 0;
+    color: aliceblue;
   }
   #myElementToScroll{
     display: flex;
