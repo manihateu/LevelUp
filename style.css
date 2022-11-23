@@ -142,3 +142,21 @@ body{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,92,180,1) 35%, rgba(0,212,255,1) 100%);
 }
+
+.w-25p{
+  width: 25%;
+}
+
+@media screen and (max-width: 990px){
+    .buy_form{
+      margin-left: 130px;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+  .buy_btn{
+    width: 100%;
+  }
+}
+
